@@ -1,0 +1,11 @@
+{
+    "files.encoding": "gbk",  // 防止乱码
+
+  //将生成的exe文件统一放置到build文件中   
+ "code-runner.executorMap": {    
+     
+     "c": "cd $dir && gcc $fileName -o F:/mingw64_workspace/build/$fileNameWithoutExt && F:/mingw64_workspace/build/$fileNameWithoutExt",
+     "cpp": "cd $dir && g++ $fileName -o F:/mingw64_workspace/build/$fileNameWithoutExt && F:/mingw64_workspace/build/$fileNameWithoutExt",
+     
+ }
+    }
